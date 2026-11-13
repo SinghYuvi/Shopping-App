@@ -6,6 +6,4 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.component.css',
   templateUrl: './app.component.html',
 })
-export class AppComponent {
-  protected readonly title = signal('Shopping-App');
-}
+export class AppComponent {}
