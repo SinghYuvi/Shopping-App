@@ -6,4 +6,9 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.component.css',
   templateUrl: './app.component.html',
 })
-export class AppComponent {}
+export class AppComponent {
+  loadedFeature = 'recipe';
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
+  }
+}
